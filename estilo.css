@@ -1,10 +1,12 @@
 body{
     max-width: 1024px;
     margin: 0 auto;
-  
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+    color: aliceblue;
 }
 .header{
-    background-color: #4d82bc;
+    background-color: #0c54a7;
     color: antiquewhite;
     height: 50px
     font-size: 40px;
@@ -13,7 +15,9 @@ body{
     border-radius: 8px 50px 50px 8px;
     padding: 10px;
 }
-.header h2{
+.logo{
+    width: auto;
+    height: 84px;
     
 }
 
@@ -26,10 +30,43 @@ body{
 .containner{
     margin: 16px;
     height: auto;
+    
+
 
 }
-a{
+.info-p a{
     text-decoration: none;
+    color: aliceblue;
+    font-size: 32px;
+    
+}
+.btn{
+    text-decoration: none;
+    color: aliceblue;
 
     
+}
+.btn:hover{ 
+    color: aliceblue;
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 8px;
+}
+li{
+    margin: 8px;
+}
+.content{
+    background-color: #0c54a7;
+    color: antiquewhite;
+    height: 50px
+    font-size: 40px;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 8px 8px 8px 8px;
+    padding: 10px;
+}
+.window{
+    max-width: 920px;
+    min-width: 380px;
+    background-color: black
 }
