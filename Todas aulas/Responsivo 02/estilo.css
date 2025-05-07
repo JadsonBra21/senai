@@ -8,6 +8,7 @@
     height: auto;
     margin: 8px auto;
     display: flex;
+    padding: 8px;
     border: 1px solid #999;
     justify-content: space-between;
 
@@ -18,4 +19,21 @@
 .content{
     width: 65%;
     height: auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .containner{
+        width: 100%;
+    }
+    .box{
+        width: 80%;
+        flex-direction: column;
+    }
+    .box img{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+    
 }
