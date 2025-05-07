@@ -1,0 +1,35 @@
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+  
+}
+.header{
+    background-color: #4d82bc;
+    color: antiquewhite;
+    height: 50px
+    font-size: 40px;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 8px 50px 50px 8px;
+    padding: 10px;
+}
+.header h2{
+    
+}
+
+.image{
+    width: 84px;
+    height: 84px;
+    border-radius: 50px;
+    border: 3px solid greenyellow;
+}
+.containner{
+    margin: 16px;
+    height: auto;
+
+}
+a{
+    text-decoration: none;
+
+    
+}
