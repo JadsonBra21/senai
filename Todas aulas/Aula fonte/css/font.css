@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "inter";
+    src: url(../font/inter/Inter_28pt-ThinItalic.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "inter";
+    src: url(../font/inter/Inter_18pt-ExtraLightItalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: "inter";
+    src: url(../font/inter/Inter_18pt-ExtraLight.ttf);
+    font-weight: 200;
+}
